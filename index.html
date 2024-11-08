@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toshkent Amaliy Fanlar Universiteti</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('XXXL.jpg'); /* Background image */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; /* Center vertically */
+            height: 100vh;
+        }
+        h1 {
+            font-size: 3.5em; /* Increased font size */
+            margin: 0; /* Removes default margin */
+            text-align: center;
+            letter-spacing: 1px; /* Adds space between letters */
+            text-transform: uppercase; /* Uppercase letters */
+            border-bottom: 2px solid rgba(255, 255, 255, 0.5); /* Underline effect */
+            padding-bottom: 10px; /* Space below the title */
+        }
+        .button {
+            margin-top: 30px; /* Space between heading and button */
+            width: 300px; /* Increased width */
+            height: 80px; /* Increased height */
+            display: flex; /* Centers text */
+            justify-content: center; /* Centers text horizontally */
+            align-items: center; /* Centers text vertically */
+            font-size: 28px; /* Increased font size */
+            color: white;
+            background: linear-gradient(45deg, rgba(0, 123, 255, 0.8), rgba(0, 255, 123, 0.8));
+            text-decoration: none; /* Removes underline */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Shadow effect */
+            transition: background 0.3s, transform 0.2s, box-shadow 0.3s; /* Transition effects */
+        }
+        .button:hover {
+            background: linear-gradient(45deg, rgba(0, 255, 123, 1), rgba(0, 123, 255, 1));
+            transform: translateY(-5px); /* Slight lift on hover */
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.7); /* Enhanced shadow on hover */
+        }
+        .icon {
+            position: absolute;
+            bottom: 20px; /* Distance from the bottom */
+            right: 20px; /* Distance from the right */
+            width: 200px; /* Increased icon size */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 15px; /* Rounded edges for the icon */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Optional shadow for the icon */
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2.5em; /* Decreased font size for mobile */
+            }
+            .button {
+                width: 250px; /* Adjusted button width for smaller screens */
+                height: 60px; /* Adjusted button height for smaller screens */
+                font-size: 22px; /* Font size for smaller screens */
+            }
+            .icon {
+                width: 150px; /* Adjusted icon size for smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Toshkent Amaliy Fanlar Universiteti</h1>
+    <a href="web2.html" class="button">Kirish</a>
+    <img src="2.jpg" class="icon" alt="Icon"> <!-- Icon image -->
+
+</body>
+</html>

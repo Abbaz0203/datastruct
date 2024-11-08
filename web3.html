@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma'ruzalar</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('image3.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        h1 {
+            margin-bottom: 30px;
+            font-size: 48px;
+            letter-spacing: 1px; /* More space between letters */
+        }
+        .button-container {
+            display: flex;
+            flex-wrap: wrap; /* Allow buttons to wrap */
+            justify-content: center; /* Center the buttons */
+            gap: 20px; /* Space between buttons */
+            max-width: 900px;
+            margin-bottom: 40px;
+        }
+        .button {
+            padding: 15px 30px;
+            font-size: 22px;
+            color: white;
+            background: linear-gradient(90deg, rgba(0, 123, 255, 0.8), rgba(0, 123, 255, 0.5));
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            text-decoration: none;
+            transition: transform 0.3s, box-shadow 0.3s;
+            flex: 1;
+            min-width: 150px; /* Minimum width for buttons */
+            text-align: center;
+        }
+        .button:hover {
+            transform: translateY(-3px); /* Lift effect on hover */
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+        }
+        .small-button-container {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .small-button {
+            padding: 12px 25px;
+            font-size: 18px;
+            color: white;
+            background: linear-gradient(90deg, rgba(0, 123, 255, 0.8), rgba(0, 123, 255, 0.5));
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            text-decoration: none;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .small-button:hover {
+            transform: translateY(-2px); /* Lift effect on hover */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 36px; /* Adjust title size for smaller screens */
+            }
+            .button {
+                font-size: 18px; /* Smaller font size for buttons */
+            }
+            .small-button {
+                font-size: 16px; /* Smaller font size for small buttons */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Ma'ruzalar</h1> <!-- Title at the top of the page -->
+
+    <div class="button-container">
+        <a href="papka/ma'ruza/ma'ruza-1.pdf" class="button">Ma'ruza - 1</a>
+        <a href="papka/ma'ruza/ma'ruza-2.pdf" class="button">Ma'ruza - 2</a>
+        <a href="papka/ma'ruza/ma'ruza-3.pdf" class="button">Ma'ruza - 3</a>
+        <a href="papka/ma'ruza/ma'ruza-4.pdf" class="button">Ma'ruza - 4</a>
+        <a href="papka/ma'ruza/ma'ruza-5.pdf" class="button">Ma'ruza - 5</a>
+        <a href="papka/ma'ruza/ma'ruza-6.pdf" class="button">Ma'ruza - 6</a>
+        <a href="papka/ma'ruza/ma'ruza-7.pdf" class="button">Ma'ruza - 7</a>
+        <a href="papka/ma'ruza/ma'ruza-8.pdf" class="button">Ma'ruza - 8</a>
+        <a href="papka/ma'ruza/ma'ruza-9.pdf" class="button">Ma'ruza - 9</a>
+        <a href="papka/ma'ruza/ma'ruza-10.pdf" class="button">Ma'ruza - 10</a>
+        <a href="papka/ma'ruza/ma'ruza-11.pdf" class="button">Ma'ruza - 11</a>
+        <a href="papka/ma'ruza/ma'ruza-12.pdf" class="button">Ma'ruza - 12</a>
+        <a href="papka/ma'ruza/ma'ruza-13.pdf" class="button">Ma'ruza - 13</a>
+        <a href="papka/ma'ruza/ma'ruza-14.pdf" class="button">Ma'ruza - 14</a>
+        <a href="papka/ma'ruza/ma'ruza-15.pdf" class="button">Ma'ruza - 15</a>
+    </div>
+
+    <div class="small-button-container">
+        <a href="web2.html" class="small-button">Orqaga</a>
+        <a href="index.html" class="small-button">Bosh Sahifa</a>
+    </div>
+
+</body>
+</html>

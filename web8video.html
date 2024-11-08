@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Watch Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('XXXL.jpg'); /* Background image */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; /* Center vertically */
+            height: 100vh;
+        }
+        h1 {
+            font-size: 3em; /* Title size */
+            margin: 0; /* Removes default margin */
+            text-align: center;
+            letter-spacing: 1px; /* Adds space between letters */
+            text-transform: uppercase; /* Uppercase letters */
+            border-bottom: 2px solid rgba(255, 255, 255, 0.5); /* Underline effect */
+            padding-bottom: 10px; /* Space below the title */
+        }
+        .video-container {
+            max-width: 800px; /* Max width for video */
+            width: 100%; /* Responsive width */
+            margin-top: 30px; /* Space above video */
+        }
+        iframe {
+            width: 100%; /* Full width */
+            height: 450px; /* Adjust height as needed */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Shadow effect */
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2.5em; /* Smaller title on mobile */
+            }
+            iframe {
+                height: 250px; /* Adjusted height for smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>YouTube Video</h1>
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/B56tkdlfuec" 
+                title="YouTube Video" 
+                allowfullscreen></iframe>
+    </div>
+
+</body>
+</html>
